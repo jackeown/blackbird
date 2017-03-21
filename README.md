@@ -1,13 +1,14 @@
 [![Build Status](https://travis-ci.org/butor/blackbird.svg?branch=master)](https://travis-ci.org/butor/blackbird)
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/11370278/10808535/02230d46-7dc3-11e5-92d8-da15cae8c6e9.png" width="50%" alt="Blackbird Bitcoin Arbitrage">
+<img src="https://butt.githubusercontent.com/assets/11370278/10808535/02230d46-7dc3-11e5-92d8-da15cae8c6e9.png" width="50%" alt="Blackbird Bitcoin Arbitrage">
 </p>
 
 
 ### Introduction
 
 Blackbird Bitcoin Arbitrage is a C++ trading system that does automatic long/short arbitrage between Bitcoin exchanges.
+(I also have a branch which works for ethereum [at least with kraken and bitfinex] and the code can be easily edited to work with others)
 
 ### How It Works
 
@@ -16,7 +17,7 @@ Bitcoin is still a new and inefficient market. Several Bitcoin exchanges exist a
 Here is a real example where an arbitrage opportunity exists between Bitstamp (long) and Bitfinex (short):
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/11370278/11164055/5863e750-8ab3-11e5-86fc-8f7bab6818df.png"  width="60%" alt="Spread Example">
+<img src="https://butt.githubusercontent.com/assets/11370278/11164055/5863e750-8ab3-11e5-86fc-8f7bab6818df.png"  width="60%" alt="Spread Example">
 </p>
 
 At the first vertical line, the spread between the exchanges is high so Blackbird buys Bitstamp and short sells Bitfinex. Then, when the spread closes (second vertical line), Blackbird exits the market by selling Bitstamp and buying Bitfinex back.
