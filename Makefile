@@ -9,7 +9,7 @@ LDLIBS   := -lsqlite3 -lcrypto -ljansson -lcurl
 CC       := gcc
 
 
-EXEC = blackbird
+EXEC = blackbird-ltc
 SOURCES = $(wildcard src/*.cpp) $(wildcard src/*/*.cpp)
 OBJECTS = $(SOURCES:.cpp=.o)
 
